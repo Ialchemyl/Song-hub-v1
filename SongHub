@@ -1,0 +1,409 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local DontMineatnight = Instance.new("TextButton")
+local Shadow = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TheFallenKingdom = Instance.new("TextButton")
+local Shadow_2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Sugaryesplease = Instance.new("TextButton")
+local Shadow_3 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local Youbeentrolled = Instance.new("TextButton")
+local Shadow_4 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local IkoIko = Instance.new("TextButton")
+local Shadow_5 = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local TheFlashahhh = Instance.new("TextButton")
+local Shadow_6 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local TopBar = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Textlabel = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local SideBar = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.222614825, 0, 0.145161286, 0)
+Main.Size = UDim2.new(0, 671, 0, 373)
+Main.Active = true
+Main.Draggable = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(242, 157, 76)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(238, 201, 86))}
+UIGradient.Parent = Main
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Main
+
+DontMineatnight.Name = "Don't Mine at night"
+DontMineatnight.Parent = Main
+DontMineatnight.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+DontMineatnight.BorderSizePixel = 0
+DontMineatnight.Position = UDim2.new(0.175111771, 0, 0.183646113, 0)
+DontMineatnight.Size = UDim2.new(0, 180, 0, 45)
+DontMineatnight.ZIndex = 2
+DontMineatnight.Font = Enum.Font.GothamSemibold
+DontMineatnight.Text = ""
+DontMineatnight.TextColor3 = Color3.fromRGB(255, 255, 255)
+DontMineatnight.TextScaled = true
+DontMineatnight.TextSize = 14.000
+DontMineatnight.TextWrapped = true
+
+Shadow.Name = "Shadow"
+Shadow.Parent = DontMineatnight
+Shadow.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel.Parent = DontMineatnight
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel.Size = UDim2.new(1, -20, 1, -20)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Don't Mine at night"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TheFallenKingdom.Name = "The Fallen Kingdom"
+TheFallenKingdom.Parent = Main
+TheFallenKingdom.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TheFallenKingdom.BorderSizePixel = 0
+TheFallenKingdom.Position = UDim2.new(0.175111771, 0, 0.465147465, 0)
+TheFallenKingdom.Size = UDim2.new(0, 180, 0, 45)
+TheFallenKingdom.ZIndex = 2
+TheFallenKingdom.Font = Enum.Font.GothamSemibold
+TheFallenKingdom.Text = ""
+TheFallenKingdom.TextColor3 = Color3.fromRGB(255, 255, 255)
+TheFallenKingdom.TextScaled = true
+TheFallenKingdom.TextSize = 14.000
+TheFallenKingdom.TextWrapped = true
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = TheFallenKingdom
+Shadow_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_2.Parent = TheFallenKingdom
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_2.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.GothamSemibold
+TextLabel_2.Text = "The Fallen Kingdom"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Sugaryesplease.Name = "Sugar yes please"
+Sugaryesplease.Parent = Main
+Sugaryesplease.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Sugaryesplease.BorderSizePixel = 0
+Sugaryesplease.Position = UDim2.new(0.175111771, 0, 0.717158198, 0)
+Sugaryesplease.Size = UDim2.new(0, 180, 0, 45)
+Sugaryesplease.ZIndex = 2
+Sugaryesplease.Font = Enum.Font.GothamSemibold
+Sugaryesplease.Text = ""
+Sugaryesplease.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sugaryesplease.TextScaled = true
+Sugaryesplease.TextSize = 14.000
+Sugaryesplease.TextWrapped = true
+
+Shadow_3.Name = "Shadow"
+Shadow_3.Parent = Sugaryesplease
+Shadow_3.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_3.BorderSizePixel = 0
+Shadow_3.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_3.Parent = Sugaryesplease
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_3.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "Sugar yes please"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+Youbeentrolled.Name = "You been trolled"
+Youbeentrolled.Parent = Main
+Youbeentrolled.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Youbeentrolled.BorderSizePixel = 0
+Youbeentrolled.Position = UDim2.new(0.638599098, 0, 0.183646113, 0)
+Youbeentrolled.Size = UDim2.new(0, 180, 0, 45)
+Youbeentrolled.ZIndex = 2
+Youbeentrolled.Font = Enum.Font.GothamSemibold
+Youbeentrolled.Text = ""
+Youbeentrolled.TextColor3 = Color3.fromRGB(255, 255, 255)
+Youbeentrolled.TextScaled = true
+Youbeentrolled.TextSize = 14.000
+Youbeentrolled.TextWrapped = true
+
+Shadow_4.Name = "Shadow"
+Shadow_4.Parent = Youbeentrolled
+Shadow_4.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_4.BorderSizePixel = 0
+Shadow_4.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_4.Parent = Youbeentrolled
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_4.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_4.ZIndex = 2
+TextLabel_4.Font = Enum.Font.GothamSemibold
+TextLabel_4.Text = "You been trolled"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+IkoIko.Name = "Iko Iko"
+IkoIko.Parent = Main
+IkoIko.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+IkoIko.BorderSizePixel = 0
+IkoIko.Position = UDim2.new(0.638599098, 0, 0.465147465, 0)
+IkoIko.Size = UDim2.new(0, 180, 0, 45)
+IkoIko.ZIndex = 2
+IkoIko.Font = Enum.Font.GothamSemibold
+IkoIko.Text = ""
+IkoIko.TextColor3 = Color3.fromRGB(255, 255, 255)
+IkoIko.TextScaled = true
+IkoIko.TextSize = 14.000
+IkoIko.TextWrapped = true
+
+Shadow_5.Name = "Shadow"
+Shadow_5.Parent = IkoIko
+Shadow_5.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_5.BorderSizePixel = 0
+Shadow_5.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_5.Parent = IkoIko
+TextLabel_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_5.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_5.ZIndex = 2
+TextLabel_5.Font = Enum.Font.GothamSemibold
+TextLabel_5.Text = "Iko Iko"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TheFlashahhh.Name = "The Flash ahhh"
+TheFlashahhh.Parent = Main
+TheFlashahhh.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TheFlashahhh.BorderSizePixel = 0
+TheFlashahhh.Position = UDim2.new(0.638599098, 0, 0.717158198, 0)
+TheFlashahhh.Size = UDim2.new(0, 180, 0, 45)
+TheFlashahhh.ZIndex = 2
+TheFlashahhh.Font = Enum.Font.GothamSemibold
+TheFlashahhh.Text = ""
+TheFlashahhh.TextColor3 = Color3.fromRGB(255, 255, 255)
+TheFlashahhh.TextScaled = true
+TheFlashahhh.TextSize = 14.000
+TheFlashahhh.TextWrapped = true
+
+Shadow_6.Name = "Shadow"
+Shadow_6.Parent = TheFlashahhh
+Shadow_6.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_6.BorderSizePixel = 0
+Shadow_6.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel_6.Parent = TheFlashahhh
+TextLabel_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_6.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_6.ZIndex = 2
+TextLabel_6.Font = Enum.Font.GothamSemibold
+TextLabel_6.Text = "The Flash ahhh"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TopBar.Name = "TopBar"
+TopBar.Parent = Main
+TopBar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TopBar.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TopBar.BorderSizePixel = 0
+TopBar.Position = UDim2.new(-0, 0, -0.00200000009, 0)
+TopBar.Size = UDim2.new(0, 671, 0, 29)
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = TopBar
+
+Textlabel.Name = "Textlabel"
+Textlabel.Parent = TopBar
+Textlabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Textlabel.Position = UDim2.new(0.245362848, 0, 0.000389173627, 0)
+Textlabel.Size = UDim2.new(0, 390, 0, 29)
+Textlabel.Font = Enum.Font.SourceSans
+Textlabel.Text = "SongHub"
+Textlabel.TextColor3 = Color3.fromRGB(255, 150, 3)
+Textlabel.TextSize = 34.000
+
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = Textlabel
+
+SideBar.Name = "SideBar"
+SideBar.Parent = Main
+SideBar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SideBar.BorderColor3 = Color3.fromRGB(27, 42, 53)
+SideBar.BorderSizePixel = 0
+SideBar.Position = UDim2.new(-0.000932112336, 0, 0.000389173627, 0)
+SideBar.Size = UDim2.new(0, 65, 0, 373)
+
+UICorner_4.CornerRadius = UDim.new(0, 4)
+UICorner_4.Parent = SideBar
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.Position = UDim2.new(0.950397909, 0, -0.00229186611, 0)
+Close.Size = UDim2.new(0, 33, 0, 29)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 45.000
+
+UICorner_5.CornerRadius = UDim.new(0, 4)
+UICorner_5.Parent = Close
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(224, 43, 39)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(168, 3, 3))}
+UIGradient_2.Parent = Close
+
+-- Scripts:
+
+local function HGOK_fake_script() -- DontMineatnight.DN 
+	local script = Instance.new('Script', DontMineatnight)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ialchemyl/Dont-mint-at-night/main/Dont%20mine%20at%20night"))();
+	end)
+end
+coroutine.wrap(HGOK_fake_script)()
+local function AZMAPO_fake_script() -- TheFallenKingdom.FK 
+	local script = Instance.new('Script', TheFallenKingdom)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ialchemyl/The-Fallen-Kingdom/main/The%20Fallen%20Kingdom"))();
+	end)
+end
+coroutine.wrap(AZMAPO_fake_script)()
+local function GNGA_fake_script() -- Sugaryesplease.WIP 
+	local script = Instance.new('Script', Sugaryesplease)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ialchemyl/Dont-mint-at-night/main/Dont%20mine%20at%20night"))();
+	end)
+end
+coroutine.wrap(GNGA_fake_script)()
+local function QCJYE_fake_script() -- Youbeentrolled.YBT 
+	local script = Instance.new('Script', Youbeentrolled)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ialchemyl/You-been-trolled/main/You%20been%20trolled"))();
+	end)
+end
+coroutine.wrap(QCJYE_fake_script)()
+local function QAPTOPS_fake_script() -- IkoIko.HD 
+	local script = Instance.new('Script', IkoIko)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ialchemyl/Iko-Iko/main/Iko%20Iko"))();
+	end)
+end
+coroutine.wrap(QAPTOPS_fake_script)()
+local function ACLDXR_fake_script() -- TheFlashahhh.TFAH 
+	local script = Instance.new('Script', TheFlashahhh)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ialchemyl/THE-FLASH-AHHH/main/THE%20FLASH%20AHHHHH"))();
+	end)
+end
+coroutine.wrap(ACLDXR_fake_script)()
+local function RMVODE_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.PlayerGui.ScreenGui.Main.Visible = false
+	end)
+	
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.PlayerGui.ScreenGui.TopBar.Visible = false
+	end)
+	
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.PlayerGui.ScreenGui.SideBar.Visible = false
+	end)
+	
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.PlayerGui.ScreenGui.Textlabel.Visible = false
+	end)
+	
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.PlayerGui.ScreenGui.Close.Visible = false
+	end)
+end
+coroutine.wrap(RMVODE_fake_script)()
